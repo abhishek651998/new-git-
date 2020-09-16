@@ -36,3 +36,112 @@
     transform: rotate(360deg);
   }
 }
+*{
+  margin: 0px;
+  padding: 0px;
+}
+.logo{
+  margin: 5px;
+  padding: 20px;   
+}
+.right{
+  position: absolute;
+  top: 3px;
+  right: 15px;  
+}
+.right li{
+  display: inline-block;
+  margin: 15px 30px 0px -30px;
+  padding: 10px 30px 0px -20px;
+}
+.right li a{
+  color: blue;
+  text-decoration: none;
+}
+.right li a:hover{
+  text-decoration: underline;
+  color: red;
+}
+.navbar{
+  
+  background-color: blue;
+  
+}
+.navbar li{
+  display: inline-block;
+  font-size: 20px;
+  
+  
+  
+  
+}
+ul li a{
+  color: white;
+  text-decoration: none;
+  padding: 35px;
+  
+}
+ul li a:hover{
+  text-decoration: underline;
+  color: red;
+}
+.text{
+  font-size: 20px;
+  padding: 0px 0px 0px 20px;
+}
+.img{
+  
+  display: inline-block;
+  width: 100%;
+
+}
+.img li{
+  border: 1px solid whitesmoke;
+  
+  padding: 25px;
+  display: inline-block;
+  color: rgb(81, 220, 255);
+  font-size:20px ;
+  
+}
+.img li b{
+  color: black;
+  font-size: 25px;
+}
+.mid li{
+  display: inline-block;
+  color:rgb(81, 220, 255) ;
+  font-size:20px ;
+  padding: 70px;
+  text-align: center;
+  
+}
+.last{
+  display: inline-block;
+  max-width: 100%;
+  padding: 5px;
+  
+}
+.last li{
+  border: 1px solid whitesmoke;
+  padding: 10px;
+  margin: 3px;
+  display: inline-block;
+  color: rgb(81, 220, 255);
+  font-size:20px ;
+}
+.last li b{
+  color: black;
+  font-size: 25px;
+}
+.footer{
+  background-color: rgb(238, 238, 238);
+  color: rgb(134, 132, 132);
+  margin: 10px;
+  padding: 25px;
+}
+table{
+  text-align: left;
+  width: 60%;
+  margin: 5px;   
+}
